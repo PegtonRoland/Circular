@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+
+html,body {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+}
+
+#logo > h1 {
+    font-weight: 100;
+    font-family: monument;
+    padding: 20px 30px;
+    font-size: 40px;
+}
+
+#credit {
+    position: absolute;
+    bottom: 2%;
+    right: 2.5%;
+}
+
+#credit > h3 {
+    font-weight: 100;
+}
+
+#panel {
+    z-index: 999;
+    top: 40%;
+    left: 10%;
+    position: absolute;
+}
+
+.p > h2,
+.p > h2,
+.p > h2,
+.p > h2,
+.p > h2 {
+    cursor: pointer;
+    transform: all ease 0.5s;
+    opacity: 0.2;
+    padding-bottom: 1rem;
+}
+
+#center {
+    position: absolute;
+    border-radius: 50%;
+    height: 150vh;
+    width: 150vh;
+    left: -65vh;
+    top: 50%;
+    transform: translate(0%,-50%) rotate(100deg) ;
+    border: 1px solid rgb(200, 207, 214);
+}
+
+.stripes {
+    transform-origin: 0% 50%;
+    position: absolute;
+    height: 15vh;
+    width: 100%;
+    left: 50%; 
+    transform: translate(0,-50%);
+    top: 50%;
+    display: flex;
+}
+
+.str1 {
+    transform: translate(0,-50%) rotate(-40deg);
+}
+.str2 {
+    transform: translate(0,-50%) rotate(-20deg);
+}
+.str3 {
+    transform: translate(0,-50%) rotate(0deg);
+}
+.str4 {
+    transform: translate(0,-50%) rotate(20deg);
+}
+.str5 {
+    transform: translate(0,-50%) rotate(40deg);
+}
+
+#first {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+#mncircle {
+    display: flex;
+    position: absolute;
+    left: 49.5%;
+    border-radius: 50%;
+    height: 1.5vh;
+    width: 1.5vh;
+    background-color: rgb(200, 207, 214);
+}
+
+#second {
+    opacity: 0.1;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 50%;
+    height: 100%;
+    justify-content: space-between;
+}
+
+#second > h1:nth-child(1) {
+   font-weight: bold;
+   font-size: 80px;
+   margin-right: 3.5rem;
+   transition: all ease 0.5s; 
+}
+
+#second > h1:nth-child(2) {
+    font-size: 60px;
+    font-weight: 500;
+    opacity: 0;
+}
+
